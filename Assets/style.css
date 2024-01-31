@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/*styling of the nav area*/
 nav {
     display: flex;
     justify-content: space-around;
@@ -44,6 +45,90 @@ nav a:hover {
 
 }
 
+/*Styling of the hero section (Full Stack Developer)*/
+
+.hero-image {
+    background-image: url("purple-cyber-image.jpg");
+    height: 140px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 4px solid rgb(206, 176, 241);
+    /*add a box border to h1*/
+}
+
+.hero-image h1 {
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(55, 32, 60) 40%,
+            rgb(198, 90, 225)100%);
+    font-size: 30px;
+
+}
+
+/*Styling of the about me section*/
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(rgb(55, 32, 60) 40%,
+            rgb(198, 90, 225)100%);
+    border-bottom: 8px solid rgb(206, 176, 241);
+    padding: 5px;
+    flex-direction: column;
+}
+
+.about-me-title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 4px solid rgb(206, 176, 241);
+    border-radius: 2px;
+    background-image: linear-gradient(rgb(198, 90, 225) 40%,
+            rgb(55, 32, 60)100%);
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 190px;
+    height: auto;
+    border: 3px solid rgb(206, 176, 241);
+    margin: 5px;
+
+
+}
+
+.about-me-text {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border: 3px solid rgb(206, 176, 241);
+    padding: 20px;
+}
+
+/*Styling of my portfolio*/
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio>section {
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+/*Responsive styling for smaller screens*/
+
 @media all and (max-width:445px) {
     .nav-link {
         border-bottom: 2px solid white;
@@ -79,106 +164,3 @@ nav a:hover {
 
     /*add hero adjustments*/
 }
-
-
-.hero-image {
-    background-image: url("purple-cyber-image.jpg");
-    height: 140px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 4px solid rgb(206, 176, 241);
-    /*add a box border to h1*/
-}
-
-.hero-image h1 {
-    padding: 15px;
-    border: 2px solid white;
-    border-radius: 5px;
-    background-image: linear-gradient(rgb(55, 32, 60) 40%,
-            rgb(198, 90, 225)100%);
-    font-size: 30px;
-
-}
-
-
-.about-me {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-image: linear-gradient(rgb(55, 32, 60) 40%,
-            rgb(198, 90, 225)100%);
-    border-bottom: 8px solid rgb(206, 176, 241);
-    padding: 5px;
-    flex-direction: column;
-}
-
-img {
-    width: 190px;
-    height: auto;
-    border: 3px solid rgb(206, 176, 241);
-    margin: 5px;
-
-
-}
-
-.about-me-text {
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-bottom: 15px;
-    border: 3px solid rgb(206, 176, 241);
-    padding: 20px;
-}
-
-.about-me-title {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 4px solid rgb(206, 176, 241);
-    border-radius: 2px;
-    background-image: linear-gradient(rgb(198, 90, 225) 40%,
-            rgb(55, 32, 60)100%);
-    text-align: center;
-    padding: 10px;
-
-
-}
-
-
-
-/*ul {
-    
-   
-    padding: 0px 30px;
-
-}
-
-a {
-    text-decoration: none;
-
-}
-
-li {
-    list-style-type: none;
-    padding: 10px 20px;
-    display: inline;
-    border: 2px solid rgb(255, 0, 149);
-    display: inline;
-}*/
-
-/*header {
-    height: 60px;
-    width: 100%;
-    line-height: 60px;
-    background-color: #d388f3;
-    border-bottom: 10px solid rgb(255, 0, 149);
-    padding-left: 10px;
-    display: inline-block;
-}*/
