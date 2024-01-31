@@ -117,17 +117,43 @@ img {
 }
 
 /*Styling of my portfolio*/
-.portfolio {
-    display: flex;
-    flex-wrap: wrap;
+.portfolio-title {
+    color: white;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    border-bottom: 4px solid rgb(206, 176, 241);
+    border-radius: 2px;
+    background-image: linear-gradient(rgb(198, 90, 225) 40%,
+            rgb(55, 32, 60)100%);
+    text-align: center;
 }
 
-.portfolio>section {
-    background-color: blueviolet;
-    margin: 10px;
+.portfolio-container {
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 2%;
+    background-image: linear-gradient(rgb(198, 90, 225) 40%,
+            rgb(55, 32, 60)100%);
+
 }
 
-/*Responsive styling for smaller screens*/
+
+
+.project-one img {
+    width: 60%;
+    /* Uses the height of the viewport */
+    height: 60vh;
+    /* Centers along the main axis determined by flex-direction */
+}
+
+.project-card img {
+    flex-direction: row;
+    width: 40%;
+    height: 30vh;
+}
+
+
 
 @media all and (max-width:445px) {
     .nav-link {
