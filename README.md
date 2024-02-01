@@ -1,9 +1,6 @@
 # week-2-portfolio-challenge
 
-Task:
-
-To build my own portfolio website:
-
+Task: To build my own portfolio website:
 
 To meet each of the acceptance criterias below I have done the following tasks.
 
@@ -20,6 +17,8 @@ I found the nav bar the easiest to style and structure and I enjoyed stylign the
 What I found Hard:
 I found structuring the project one image hard as it needed to be a bigger size so that took me a while to work out how to make it bigger while keeping the other items on a different line but after reasearching previous lessons and refering to the mdn documents I worked it out.
 I also found it took me a while to stop the other projects from staying on one line but in the end I worked out how to get 2 projects on 1 line.
+
+
 
 ## Acceptance Criteria
 
