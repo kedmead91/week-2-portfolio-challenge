@@ -295,6 +295,7 @@ footer {
     .project-one img {
         width: 300px;
         height: 200px;
+
     }
 
     /*changes project 2,3,4 & 5 images when screen is smaller*/
@@ -308,5 +309,9 @@ footer {
         border: none;
         border-bottom: 2px solid lavender;
 
+    }
+
+    footer ul {
+        padding-left: 45px;
     }
 }
