@@ -203,37 +203,6 @@ img {
     height: 30vh;
 }
 
-/*.project-card {
-    padding: 10px;
-    width: 225px;
-    text-align: center;
-    border: 6px solid rgb(206, 176, 241);
-    margin: 15px;
-}*/
-
-/*.project-card header {
-    padding: 10px;
-    background: #381838;
-    color: #fff;
-}
-*/
-/*
-header a {
-    text-decoration: none;
-    color: white;
-}*/
-
-/*header a:hover {
-    color: rgb(254, 52, 187);
-    font-size: 20px;
-    
-}*/
-
-/*.project-card img {
-    width: 90%;
-
-}*/
-
 footer a {
     display: flex;
     color: white;
