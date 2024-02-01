@@ -14,6 +14,7 @@ To meet each of the acceptance criterias below I have done the following tasks.
 
 3 - I made my website more responsive to adapt to smaller screens using media queries.
 
+4
 What I found Easy:
 
 I found the nav bar the easiest to style and structure and I enjoyed stylign the nav and hero section.
