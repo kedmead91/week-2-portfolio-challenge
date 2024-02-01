@@ -18,6 +18,8 @@ To meet each of the acceptance criterias below I have done the following tasks.
 
 5 - I created anchor links so when a user clicks on a nav link e.g. about me, portfolio or contact it will jump to that section on the page. 
 
+6 - I made project two link to the deployed site for the code refactoring week 1 challenge.
+
 What I found Easy:
 
 I found the nav bar the easiest to style and structure and I enjoyed stylign the nav and hero section.
