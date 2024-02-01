@@ -17,9 +17,9 @@
                 <h1>Kamara Edmead</h1>
             </section>
             <ul>
-                <li class="nav-link"> <a href="#">About Me</a></li>
-                <li class="nav-link"> <a href="#">Portfolio</a></li>
-                <li class="nav-link"><a href="#">Contact</a></li>
+                <li class="nav-link"> <a href="#about-anchor">About Me</a></li>
+                <li class="nav-link"> <a href="#portfolio-anchor">Portfolio</a></li>
+                <li class="nav-link"><a href="#contact-anchor">Contact</a></li>
             </ul>
         </nav>
 
@@ -33,7 +33,7 @@
 
         <!--About me title, image and text layout including creation of a container-->
         <h1 class="about-me-title">About Me</h1>
-        <section class="about-me-container">
+        <section id="about-anchor" class="about-me-container">
             <section>
                 <img src="Assets\IMG_1708.jpg">
             </section>
@@ -49,25 +49,43 @@
         </section>
         <!--Portfolio Layout-->
         <h1 class="portfolio-title">My Portfolio</h1>
+        <section id="portfolio-anchor" class="project-one">
+            <img src="Assets\purple-hero-image.jpg" alt="camera" />
+            <div class="overlay-text"><a href="#" target="_blank">Project One
+            </div></a>
+        </section>
         <div class="portfolio-container">
-            <section class="project-one">
-                <img src="Assets\purple-hero-image.jpg" alt="camera" />
+            <section class="project-card">
+                <header><a href="https://kedmead91.github.io/week-1-code-refactor-challenge/" target="_blank">Code
+                        Refactor <br> Click here!</header></a>
+                <img src="Assets\purple-hero-image.jpg">
             </section>
             <section class="project-card">
+                <header><a href="#" target="_blank">Project Three
+                </header></a>
                 <img src="Assets\purple-hero-image.jpg">
-
+            </section>
+            <section class="project-card">
+                <header><a href="#" target="_blank">Project Four
+                </header></a>
                 <img src="Assets\purple-hero-image.jpg">
-
-                <img src="Assets\purple-hero-image.jpg">
-
+            </section>
+            <section class="project-card">
+                <header><a href="#" target="_blank">Project Five
+                </header></a>
                 <img src="Assets\purple-hero-image.jpg">
             </section>
             </section>
         </div>
     </main>
     <footer>
-
-    </footer>
+        <h1 id="contact-anchor">Contact</h1>
+        <ul>
+            <li class="nav-link"> <a href="#">Email</a></li>
+            <li class="nav-link"> <a href="https://github.com/kedmead91" target="_blank">Github</a></li>
+            <li class="nav-link"><a href="https://www.linkedin.com/in/kamaraedmead/" target="_blank">Linkedin</a></li>
+        </ul>
+        < </footer>
 
 
 </body>

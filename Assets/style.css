@@ -45,6 +45,7 @@ nav a:hover {
 
 }
 
+
 /*Styling of the hero section (Full Stack Developer)*/
 
 .hero-image {
@@ -127,32 +128,142 @@ img {
     background-image: linear-gradient(rgb(198, 90, 225) 40%,
             rgb(55, 32, 60)100%);
     text-align: center;
+    padding: 10px;
+}
+
+.project-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(55, 32, 60) 40%,
+            rgb(198, 90, 225)100%);
+
+}
+
+.project-one img {
+    width: 70%;
+    height: 55vh;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay-text {
+    position: absolute;
+    background: hsl(300, 40%, 16%);
+    color: #fff;
+    font-size: 25px;
+    padding: 25px;
+    right: 55%;
+}
+
+.overlay-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.overlay-text a:hover {
+    color: rgb(254, 52, 187);
 }
 
 .portfolio-container {
-    padding-left: 20%;
-    padding-right: 10%;
-    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* Centers along the main axis determined by flex-direction */
+    justify-content: center;
+    /* Centers along the opposite axis */
+    align-items: center;
+    /* Uses the height of the viewport */
+    margin: 0 auto;
+    padding: 25px;
     background-image: linear-gradient(rgb(198, 90, 225) 40%,
             rgb(55, 32, 60)100%);
+}
 
+
+.project-card {
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border: 4px solid rgb(206, 176, 241);
+    margin: 15px;
+}
+
+.project-card header {
+    padding: 10px;
+    background: #381838;
+    color: #fff;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: rgb(254, 52, 187);
+    font-size: 20px;
+}
+
+footer a {
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer a:hover {
+    color: rgb(254, 52, 187);
+}
+
+footer li {
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer h1 {
+    text-align: center;
+    color: white;
+    border: 4px solid rgb(206, 176, 241);
+    padding: 10px;
+}
+
+footer {
+    background-image: linear-gradient(rgb(55, 32, 60) 40%,
+            rgb(198, 90, 225)100%);
+    text-align: end;
+    border-bottom: 20px solid rgb(206, 176, 241);
 }
 
 
 
-.project-one img {
-    width: 60%;
-    /* Uses the height of the viewport */
-    height: 60vh;
-    /* Centers along the main axis determined by flex-direction */
+
+/*.project-card {
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.project-card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
 }
 
 .project-card img {
-    flex-direction: row;
+    width: 100%;
+}*/
+
+
+/*
+.project-card img {
     width: 40%;
     height: 30vh;
 }
-
+*/
 
 
 @media all and (max-width:445px) {
@@ -187,6 +298,15 @@ img {
         flex-direction: column;
     }
 
+    .overlay-text {
+        padding: 5px;
+    }
+
+    footer h1 {
+        border: none;
+        border-bottom: 2px solid lavender;
+
+    }
 
     /*add hero adjustments*/
 }
