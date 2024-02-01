@@ -2,6 +2,8 @@
 
 Task: To build my own portfolio website:
 
+Link to deployed application:
+
 To meet each of the acceptance criterias below I have done the following tasks.
 
 1 - I formatted the html so that all the information I needed on my site was structured into the right semantic elements.
@@ -16,9 +18,16 @@ I found the nav bar the easiest to style and structure and I enjoyed stylign the
 
 What I found Hard:
 I found structuring the project one image hard as it needed to be a bigger size so that took me a while to work out how to make it bigger while keeping the other items on a different line but after reasearching previous lessons and refering to the mdn documents I worked it out.
-I also found it took me a while to stop the other projects from staying on one line but in the end I worked out how to get 2 projects on 1 line.
+I also found it took me a while to stop the other projects from staying on one line but in the end I worked out how to get 2 projects per 1 line in desktop view.
 
+Screenshots: 
+https://github.com/kedmead91/week-2-portfolio-challenge/blob/main/Assets/Screenshot%202024-02-01%20113300.png
 
+https://github.com/kedmead91/week-2-portfolio-challenge/blob/main/Assets/Screenshot%202024-02-01%20113321.png
+
+https://github.com/kedmead91/week-2-portfolio-challenge/blob/main/Assets/Screenshot%202024-02-01%20113347.png
+
+https://github.com/kedmead91/week-2-portfolio-challenge/blob/main/Assets/Screenshot%202024-02-01%20113355.png
 
 ## Acceptance Criteria
 

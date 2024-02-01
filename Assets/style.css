@@ -210,7 +210,7 @@ and font size increase when the mouse hovers over the link*/
 
 /*adjusts the width and height of projects 2,3,4 & 5 images*/
 .project-card img {
-    width: 600px;
+    width: 500px;
     height: 30vh;
 }
 
