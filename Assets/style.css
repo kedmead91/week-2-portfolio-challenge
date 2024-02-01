@@ -49,7 +49,7 @@ nav a:hover {
 /*Styling of the hero section (Full Stack Developer)*/
 
 .hero-image {
-    background-image: url("purple-cyber-image.jpg");
+    background-image: url("purple-hero-image.jpg");
     height: 140px;
     background-size: cover;
     display: flex;
@@ -73,7 +73,7 @@ nav a:hover {
 }
 
 /*Styling of the about me section*/
-
+/*Creates a flex container to house about me information,*/
 .about-me-container {
     display: flex;
     align-items: center;
@@ -86,6 +86,7 @@ nav a:hover {
     flex-direction: column;
 }
 
+/*Creates a container to style the about me title section*/
 .about-me-title {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -97,15 +98,15 @@ nav a:hover {
     padding: 10px;
 }
 
+/* Styling of the image of me in the about me section*/
 img {
     width: 190px;
     height: auto;
     border: 3px solid rgb(206, 176, 241);
     margin: 5px;
-
-
 }
 
+/*Creation of a container to style the about me text */
 .about-me-text {
     text-align: center;
     justify-content: center;
@@ -117,7 +118,7 @@ img {
     padding: 20px;
 }
 
-/*Styling of my portfolio*/
+/* Creation of a container to style the my portfolio title*/
 .portfolio-title {
     color: white;
     font-family: Arial,
@@ -130,6 +131,7 @@ img {
     padding: 10px;
 }
 
+/*Creates a container for project one image and styles it*/
 .project-one {
     display: flex;
     align-items: center;
@@ -139,13 +141,14 @@ img {
 
 }
 
+/*Sets the width, height, margin top of the project one image*/
 .project-one img {
     width: 70%;
     height: 55vh;
-    text-align: center;
     margin-top: 30px;
 }
 
+/*Creates the overlay text on project one image & styles it*/
 .overlay-text {
     position: absolute;
     background: hsl(300, 40%, 16%);
@@ -155,15 +158,18 @@ img {
     right: 55%;
 }
 
+/*Styles the overlay text link on the project one image*/
 .overlay-text a {
     text-decoration: none;
     color: white;
 }
 
+/*Gives overlay text on project one image a hover effect when the mouse hovers over the link*/
 .overlay-text a:hover {
     color: rgb(254, 52, 187);
 }
 
+/*Creates a container and styles it for the other four projects under project one*/
 .portfolio-container {
     display: flex;
     flex-wrap: wrap;
@@ -179,16 +185,20 @@ img {
             rgb(55, 32, 60)100%);
 }
 
+/*Styles the overlay text link on the project 2,3,4 & 5 images*/
 .overlay-text-projects a {
     text-decoration: none;
     color: white;
 }
 
+/*Gives overlay text on project 2,3,4 & 5 images a hover effect 
+and font size increase when the mouse hovers over the link*/
 .overlay-text-projects a:hover {
     color: rgb(254, 52, 187);
     font-size: 20px;
 }
 
+/*Creates the overlay text on project 2,3,4 & 5 images & styles it*/
 .overlay-text-projects {
     position: absolute;
     background: hsl(300, 40%, 16%);
@@ -198,11 +208,13 @@ img {
 
 }
 
+/*adjusts the width and height of projects 2,3,4 & 5 images*/
 .project-card img {
     width: 600px;
     height: 30vh;
 }
 
+/*Styles the footer links text styling*/
 footer a {
     display: flex;
     color: white;
@@ -211,33 +223,39 @@ footer a {
     display: inline-block;
 }
 
+/*Gives the footer links a hover effect when the mouse is on one of the links*/
 footer a:hover {
     color: rgb(254, 52, 187);
 }
 
+/*Styles each footer list item*/
 footer li {
     border: 1px solid white;
     margin: 10px;
     padding: 10px;
 }
 
+/*Styles the footer Contact header*/
 footer h1 {
     text-align: center;
     color: white;
     border: 4px solid rgb(206, 176, 241);
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Styles the overall background of the footer and positioning of the links*/
 footer {
-    background-image: linear-gradient(rgb(55, 32, 60) 40%,
-            rgb(198, 90, 225)100%);
+    background-image: linear-gradient(rgb(198, 90, 225) 10%,
+            rgb(55, 32, 60)60%);
     text-align: end;
     border-bottom: 20px solid rgb(206, 176, 241);
 }
 
-/*Makes website responsive and adaptable on smaller screens*/
-
+/* Targets elements to make website responsive and adaptable on smaller screens*/
 @media all and (max-width:445px) {
+
+    /*styles the nav links so it looks better on smaller screens*/
     .nav-link {
         border-bottom: 2px solid white;
         padding: 5px;
@@ -248,11 +266,13 @@ footer {
 
     }
 
+    /*Changes the padding in the nav list so the spacing is better on smaller screens*/
     nav {
         padding: 20px;
 
     }
 
+    /*when the screen is made smaller removes the border around the header text*/
     .nav-header {
         margin-left: 50px;
         margin-right: 10px;
@@ -261,32 +281,32 @@ footer {
 
     }
 
+    /*when screen is smaller it adjusts the text so its central*/
     .hero-image h1 {
         text-align: center;
     }
 
-    .about-me {
-        flex-direction: column;
-    }
-
+    /*changes the overlay-text padding when screen is smaller*/
     .overlay-text {
         padding: 5px;
     }
 
-    footer h1 {
-        border: none;
-        border-bottom: 2px solid lavender;
-
+    /*changes the project one image size when screen is smaller*/
+    .project-one img {
+        width: 300px;
+        height: 200px;
     }
 
+    /*changes project 2,3,4 & 5 images when screen is smaller*/
     .project-card img {
         width: 300px;
         height: 30vh;
     }
 
-    .portfolio-container {
-        flex-direction: column;
-    }
+    /*removes the border from contact header and adds a border bottom instead when screen is smaller*/
+    footer h1 {
+        border: none;
+        border-bottom: 2px solid lavender;
 
-    /*add hero adjustments*/
+    }
 }
