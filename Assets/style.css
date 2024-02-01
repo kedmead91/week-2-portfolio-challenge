@@ -124,7 +124,6 @@ img {
         Helvetica,
         sans-serif;
     border-bottom: 4px solid rgb(206, 176, 241);
-    border-radius: 2px;
     background-image: linear-gradient(rgb(198, 90, 225) 40%,
             rgb(55, 32, 60)100%);
     text-align: center;
@@ -180,30 +179,60 @@ img {
             rgb(55, 32, 60)100%);
 }
 
-
-.project-card {
-    padding: 10px;
-    width: 250px;
-    text-align: center;
-    border: 4px solid rgb(206, 176, 241);
-    margin: 15px;
-}
-
-.project-card header {
-    padding: 10px;
-    background: #381838;
-    color: #fff;
-}
-
-header a {
+.overlay-text-projects a {
     text-decoration: none;
     color: white;
 }
 
-header a:hover {
+.overlay-text-projects a:hover {
     color: rgb(254, 52, 187);
     font-size: 20px;
 }
+
+.overlay-text-projects {
+    position: absolute;
+    background: hsl(300, 40%, 16%);
+    color: #fff;
+    font-size: 25px;
+    margin: 20px;
+
+}
+
+.project-card img {
+    width: 600px;
+    height: 30vh;
+}
+
+/*.project-card {
+    padding: 10px;
+    width: 225px;
+    text-align: center;
+    border: 6px solid rgb(206, 176, 241);
+    margin: 15px;
+}*/
+
+/*.project-card header {
+    padding: 10px;
+    background: #381838;
+    color: #fff;
+}
+*/
+/*
+header a {
+    text-decoration: none;
+    color: white;
+}*/
+
+/*header a:hover {
+    color: rgb(254, 52, 187);
+    font-size: 20px;
+    
+}*/
+
+/*.project-card img {
+    width: 90%;
+
+}*/
 
 footer a {
     display: flex;
@@ -237,34 +266,7 @@ footer {
     border-bottom: 20px solid rgb(206, 176, 241);
 }
 
-
-
-
-/*.project-card {
-    width: 250px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.project-card header {
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
-}
-
-.project-card img {
-    width: 100%;
-}*/
-
-
-/*
-.project-card img {
-    width: 40%;
-    height: 30vh;
-}
-*/
-
+/*Makes website responsive and adaptable on smaller screens*/
 
 @media all and (max-width:445px) {
     .nav-link {
@@ -306,6 +308,15 @@ footer {
         border: none;
         border-bottom: 2px solid lavender;
 
+    }
+
+    .project-card img {
+        width: 300px;
+        height: 30vh;
+    }
+
+    .portfolio-container {
+        flex-direction: column;
     }
 
     /*add hero adjustments*/
