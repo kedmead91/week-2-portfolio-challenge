@@ -14,7 +14,10 @@ To meet each of the acceptance criterias below I have done the following tasks.
 
 3 - I made my website more responsive to adapt to smaller screens using media queries.
 
-4
+4 - I added clickable links in the footer to my github and linkedin and an example link for my email.
+
+5 - I created anchor links so when a user clicks on a nav link e.g. about me, portfolio or contact it will jump to that section on the page. 
+
 What I found Easy:
 
 I found the nav bar the easiest to style and structure and I enjoyed stylign the nav and hero section.
