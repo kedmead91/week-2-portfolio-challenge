@@ -4,6 +4,8 @@ Task: To build my own portfolio website:
 
 Link to deployed application:
 
+https://kedmead91.github.io/week-2-portfolio-challenge/
+
 To meet each of the acceptance criterias below I have done the following tasks.
 
 1 - I formatted the html so that all the information I needed on my site was structured into the right semantic elements.
